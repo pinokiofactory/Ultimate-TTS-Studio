@@ -19,7 +19,7 @@ module.exports = {
         message: [
           "conda install -c conda-forge pynini==2.1.6 -y",
           "conda install -y -c conda-forge portaudio",
-          "uv pip install gradio devicetorch",
+          "uv pip install gradio devicetorch setuptools==80.9.0",
           "uv pip install -r requirements.txt",
           "uv pip install WeTextProcessing --no-deps",
           "pip uninstall phonemizer-fork -y",
